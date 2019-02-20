@@ -28,7 +28,6 @@ game_on = True
 while (game_on == True):
     deck.full_new()
     deck.shuffle()
-    print(len(deck))
     bet = place_bet(player)
     deal(players, deck)
     players_turn = True
